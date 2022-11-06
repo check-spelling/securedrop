@@ -1392,7 +1392,7 @@ This changelog shows major changes below. Please diff the tags to see the full l
 * Adds passphrase best practices guide (#1136).
 * Adds SecureDrop promotion guide (#1134).
 * Adds Administrator responsibilities guide (#1727).
-* Other minor miscelleanous documentation improvements.
+* Other minor miscellaneous documentation improvements.
 
 ## 0.3.12
 
