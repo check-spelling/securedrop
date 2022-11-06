@@ -1004,7 +1004,7 @@ https://github.com/freedomofpress/securedrop/milestone/47
 
 * Miscellaneous documentation improvements (#3623, #3624, #3655, #3670, #3717, #3710)
 
-The issues for this release were tracked in the 0.9 milestone on Github:
+The issues for this release were tracked in the 0.9 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestone/44
 
 
@@ -1043,7 +1043,7 @@ https://github.com/freedomofpress/securedrop/milestone/44
 
 * Miscellaneous documentation improvements (#3404, #3405, #3431, #3435,#3437, #3440, #3457, #3463, #3467, #3468, #3476, #3480)
 
-The issues for this release were tracked in the 0.8 milestone on Github:
+The issues for this release were tracked in the 0.8 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestone/43
 
 ## 0.7.0
@@ -1089,7 +1089,7 @@ https://github.com/freedomofpress/securedrop/milestone/43
 * Add Release manager guide (#3202)
 * Miscellaneous documentation improvements (#3099, #3147, #3153, #3156, #3168, #3201, #3252, #3265, #3295, #3315, #3359).
 
-The issues for this release were tracked in the 0.7 milestone on Github:
+The issues for this release were tracked in the 0.7 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.7.
 
 ## 0.6
@@ -1132,7 +1132,7 @@ https://github.com/freedomofpress/securedrop/milestones/0.7.
 
 * Miscellaneous documentation improvements.
 
-The issues for this release were tracked in the 0.6 milestone on Github:
+The issues for this release were tracked in the 0.6 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.6.
 
 ## 0.5.2
@@ -1142,7 +1142,7 @@ https://github.com/freedomofpress/securedrop/milestones/0.6.
 * Bugfix: Dynamically allocate firewall during OSSEC registration (#2748).
 * Bugfix: Add all languages to sdconfig prompt (#2935).
 
-The issues for this release were tracked in the 0.5.2 milestone on Github:
+The issues for this release were tracked in the 0.5.2 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestone/41
 
 ## 0.5.1
@@ -1175,7 +1175,7 @@ https://github.com/freedomofpress/securedrop/milestone/41
 * Replace Google Authenticator with FreeOTP (#2757).
 * Add recommended landing page content (#2752).
 
-The issues for this release were tracked in the 0.5.1 milestone on Github:
+The issues for this release were tracked in the 0.5.1 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.5.1.
 
 ## 0.5
@@ -1237,7 +1237,7 @@ https://github.com/freedomofpress/securedrop/milestones/0.5.1.
 * Add sample SecureDrop privacy policy to documentation (#2340).
 * Break out "Deployment Best Practices" into discrete docs section (#2339).
 
-The issues for this release were tracked in the 0.5 milestone on Github:
+The issues for this release were tracked in the 0.5 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.5.
 
 ## 0.4.4
@@ -1255,7 +1255,7 @@ are not included here. Those issues have been postponed to a future release.
 
 ## 0.4.3
 
-The issues for this release were tracked in the 0.4.3 milestone on Github:
+The issues for this release were tracked in the 0.4.3 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.4.3.
 
 ### Web Applications
@@ -1321,7 +1321,7 @@ https://github.com/freedomofpress/securedrop/milestones/0.4.3.
 
 * Explicitly enables DAC override capability in Apache AppArmor profile (#2105)
 
-The issues for this release were tracked in the 0.4.2 milestone on Github:
+The issues for this release were tracked in the 0.4.2 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.4.2.
 
 ## 0.4.1
@@ -1329,12 +1329,12 @@ https://github.com/freedomofpress/securedrop/milestones/0.4.2.
 * Fixes a bug in one of the Tails scripts used to set up the Desktop
 icons for the SecureDrop interfaces (#2049)
 
-The issues for this release were tracked in the 0.4.1 milestone on Github:
+The issues for this release were tracked in the 0.4.1 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.4.1.
 
 ## 0.4
 
-The issues for this release were tracked in the 0.4 milestone on Github:
+The issues for this release were tracked in the 0.4 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.4.
 
 This changelog shows major changes below. Please diff the tags to see the full list of changes.
@@ -1416,7 +1416,7 @@ are updated to display properly using this setting (#1567, #1480, #1522)
 * CSS fixes (#1186)
 * Adds coveragerc
 
-The issues for this release were tracked in the 0.3.11 milestone on Github:
+The issues for this release were tracked in the 0.3.11 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.3.11.
 
 ## 0.3.10
@@ -1431,7 +1431,7 @@ will have their apt keyrings updated via automatic nightly updates.
 Admins must manually update the Release Signing Key on Admin Workstations.
 See documentation on configuring the Admin Workstation.
 
-The issues for this release were tracked in the 0.3.10 milestone on Github:
+The issues for this release were tracked in the 0.3.10 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.3.10.
 
 ## 0.3.9
@@ -1444,7 +1444,7 @@ Point release to fix some minor issues and update our Python dependencies.
 * Update Python dependencies of SD (#1379)
 * Fix a regression in the new install script (#1397)
 
-The issues for this release were tracked in the 0.3.9 milestone on Github:
+The issues for this release were tracked in the 0.3.9 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.3.9.
 
 ## 0.3.8
@@ -1453,7 +1453,7 @@ https://github.com/freedomofpress/securedrop/milestones/0.3.9.
 * Switch to using bento boxes in Vagrantfile for more reproducible test environments
 * Minor fixes to update_version.sh
 
-The issues for this release were tracked in the 0.3.8 milestone on Github:
+The issues for this release were tracked in the 0.3.8 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.3.8
 
 ## 0.3.7
@@ -1478,7 +1478,7 @@ package authentication fails if the corresponding key is expired.
 
 ## 0.3.5
 
-The issues for this release were tracked with the 0.3.5 milestone on Github: https://github.com/freedomofpress/securedrop/milestones/0.3.5
+The issues for this release were tracked with the 0.3.5 milestone on GitHub: https://github.com/freedomofpress/securedrop/milestones/0.3.5
 
 * Use certificate verification instead of fingerprint verification by default for the OSSEC Postfix configuration (#1076)
 * Fix apache2 service failing to start on Digital Ocean (#1078)
@@ -1489,7 +1489,7 @@ The issues for this release were tracked with the 0.3.5 milestone on Github: htt
 
 ## 0.3.4
 
-The issues for this release were tracked with the 0.3.4 milestone on Github: https://github.com/freedomofpress/securedrop/milestones/0.3.4
+The issues for this release were tracked with the 0.3.4 milestone on GitHub: https://github.com/freedomofpress/securedrop/milestones/0.3.4
 
 This release contains fixes for issues described in the most recent security audit by iSec. It also contains some improvements and updates to the documentation, and a fix for Tor hidden service directory permissions that caused new installs to fail.
 
@@ -1514,7 +1514,7 @@ This release contains fixes for issues described in the most recent security aud
 
 ## 0.3.3
 
-The issues for this release were tracked with the 0.3.3 milestone on Github:
+The issues for this release were tracked with the 0.3.3 milestone on GitHub:
 https://github.com/freedomofpress/securedrop/milestones/0.3.3.
 
 * Remove unnecessary proxy command from Tails SSH aliases (#933)
