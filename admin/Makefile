@@ -11,7 +11,7 @@ update-pip-requirements: ## Updates all Python requirements files via pip-compil
 	@bin/dev-shell pip-compile --allow-unsafe --generate-hashes --output-file requirements-testinfra.txt requirements.in requirements-ansible.in requirements-testinfra.in
 	@bin/dev-shell pip-compile --allow-unsafe --generate-hashes --output-file requirements-dev.txt requirements-dev.in
 
-# Explaination of the below shell command should it ever break.
+# Explanation of the below shell command should it ever break.
 # 1. Set the field separator to ": ##" and any make targets that might appear between : and ##
 # 2. Use sed-like syntax to remove the make targets
 # 3. Format the split fields into $$1) the target name (in blue) and $$2) the target description
