@@ -18,7 +18,7 @@ then
     git config --global user.email "ci@freedom.press"
     git config --global user.name "CI User"
 
-    # Ensure presensce of upstream remote
+    # Ensure presence of upstream remote
     git ls-remote --exit-code --quiet upstream 2>/dev/null || git remote add upstream https://github.com/freedomofpress/securedrop.git
 
     # Determine target branch via API

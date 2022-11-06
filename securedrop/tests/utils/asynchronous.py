@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-"""Testing utilites to block on and react to the success, failure, or
+"""Testing utilities to block on and react to the success, failure, or
 timeout of asynchronous processes.
 """
 import time
 
-# This is an arbitarily defined value in the SD codebase and not something from rqworker
+# This is an arbitrarily defined value in the SD codebase and not something from rqworker
 REDIS_SUCCESS_RETURN_VALUE = "success"
 
 
