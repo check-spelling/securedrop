@@ -445,7 +445,7 @@ def test_session_race_condition(mocker, journalist_app, test_journo):
         # When manually setting the journalist uid in session
         session["uid"] = test_journo["id"]
 
-        # When manually building a Flask repsonse object
+        # When manually building a Flask response object
         app.response = Response()
         # When manually calling save_session() to write the session in redis
         journalist_app.session_interface.save_session(journalist_app, session, app.response)
