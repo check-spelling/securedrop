@@ -129,7 +129,7 @@
 * Added JavaScript check to detect use of non-torified proxy servers (#6303)
 * Added /robots.txt route and meta tags to disallow bots on the Source Interface (#6299)
 * Fixed text overflow issue in the "Read Replies" widget (#6301)
-* Updated data attributes in the codename widget to be translateable strings (#6288)
+* Updated data attributes in the codename widget to be translatable strings (#6288)
 * Added support for future user-agent strings  with a 3-digit Firefox version (#6309)
 
 ### Development
