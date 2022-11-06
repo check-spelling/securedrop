@@ -193,7 +193,7 @@
 ### Web applications
 
 * Updated HTML time tags to use valid datetime formatting (#6075)
-* Refactor web applications to consolidate source user creation and session management, and remove dependendencies on the system scrypt module in favour of equivalent functionality from the cryptography package (#5692, #5694, #5695)
+* Refactor web applications to consolidate source user creation and session management, and remove dependencies on the system scrypt module in favour of equivalent functionality from the cryptography package (#5692, #5694, #5695)
 * Updated confirmation message for successful replies in the Journalist Interface (#6102)
 * Refactored Source Interface to improve accessibility, using semantic HTML and ARIA annotations (#5996, #6021, #6041, #6056, #6096)
 * Increased default length of 2FA secrets from 80 to 160 bits (#5958)
