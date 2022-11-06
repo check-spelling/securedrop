@@ -942,7 +942,7 @@
 * Bugfix: resolve OSSEC GPG key import issue in Ansible (#3928)
 * Updated Ansible to 2.6.8 (#3945)
 * Update grsecurity kernels to 4.4.162 (#3913)
-* Security bugfix: Disable unecessary sshd config options (#3979)
+* Security bugfix: Disable unnecessary sshd config options (#3979)
 * Removes 3.14.x grsecurity kernels (#3913)
 
 ### Developer Workflow
