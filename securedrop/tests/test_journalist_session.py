@@ -197,7 +197,7 @@ def test_session_admin_change_password_logout(journalist_app, test_journo, test_
         )
         # Then the password change has been successful
         assert resp.status_code == 302
-        # Then the journalis (non-admin) user session does no longer exist in redis
+        # Then the journalist (non-admin) user session does no longer exist in redis
         assert (redis.get(journalist_app.config["SESSION_KEY_PREFIX"] + sid)) is None
 
     with journalist_app.test_client() as app:
