@@ -247,7 +247,7 @@ class Submission(db.Model):
     @property
     def seen(self) -> bool:
         """
-        If the submission has been downloaded or seen by any journalist, then the submssion is
+        If the submission has been downloaded or seen by any journalist, then the submission is
         considered seen.
         """
         if self.downloaded or self.seen_files.count() or self.seen_messages.count():
