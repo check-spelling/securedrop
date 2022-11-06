@@ -105,7 +105,7 @@ def test_session_login(journalist_app, test_journo):
 
         # Finally load the main page
         resp = app.get(url_for("main.index"))
-        # And expect a successfull status code
+        # And expect a successful status code
         assert resp.status_code == 200
 
 
