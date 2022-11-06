@@ -1199,7 +1199,7 @@ var SUPPORTED_ALGS = 4 | 2 | 1;
 	 *   processed
 	 * @param {Array.<number>} H The intermediate H values from a previous
 	 *   round
-	 * @return {Array.<number>} The array of integers representing the SHA-1
+	 * @return {Array.<number>} The array of integers represent ing the SHA-1
 	 *   hash of message
 	 */
 	function finalizeSHA1(remainder, remainderBinLen, processedBinLen, H)
@@ -1426,7 +1426,7 @@ var SUPPORTED_ALGS = 4 | 2 | 1;
 	 * @param {Array.<number|Int_64>} H The intermediate H values from a previous
 	 *   round
 	 * @param {string} variant The desired SHA-2 variant
-	 * @return {Array.<number>} The array of integers representing the SHA-2
+	 * @return {Array.<number>} The array of integers represent ing the SHA-2
 	 *   hash of message
 	 */
 	function finalizeSHA2(remainder, remainderBinLen, processedBinLen, H, variant)
