@@ -1499,7 +1499,7 @@ This release contains fixes for issues described in the most recent security aud
 * Remove debugging print statements that could leak sensitive information to the logs for the document interface (iSEC-15FTC-2, #1059)
 * Harden default iptables policies (iSEC-15FTC-3, #1053)
 * Don't check passwords or codenames that exceed a maximum length to prevent DoS via excessive scrypt computation (iSEC-15FTC-6, #1059)
-* Remove unnecessary capabilties from the Apache AppArmor profile (iSEC-15FTC-9, #1058).
+* Remove unnecessary capabilities from the Apache AppArmor profile (iSEC-15FTC-9, #1058).
 * Change postfix hostname to something generic to prevent fingerprinting via OSSEC email headers (iSEC-15FTC-10, #1057)
 
 ### Other changes
