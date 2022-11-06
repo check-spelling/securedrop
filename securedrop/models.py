@@ -549,7 +549,7 @@ class Journalist(db.Model):
             raise InvalidPasswordLength(passphrase)
 
         # No check on minimum password length here because some passwords
-        # may have been set prior to setting the mininum password length.
+        # may have been set prior to setting the minimum password length.
 
         hasher = argon2.PasswordHasher(**ARGON2_PARAMS)
         if self.passphrase_hash:
