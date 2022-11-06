@@ -285,7 +285,7 @@
 * Revised upgrade testing logic (#5960)
 * Added Rust toolchain to the builder image (#5966)
 * Removed VirtualBox support in VM scenarios (#5922)
-* Improved efficienciy of alembic upgrade/downgrade tests (#5935)
+* Improved efficiency of alembic upgrade/downgrade tests (#5935)
 * Updated geckodriver and Firefox ESR versions used in tests to latest versions (#5921)
 * Bugfix: corrected Ansible deprecation warning when building deb packages (#5917)
 * Updated dependencies: pip from 19.3.1 to 21.1.1; pip-tools from 4.5.1 to 6.1.0; setuptools from 46.0.0 to 56.0.0; setuptools-scm from 5.0.2 to 6.0.1; pillow from 8.1.1 to 8.2.0 (#5888)
