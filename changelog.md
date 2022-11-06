@@ -1531,7 +1531,7 @@ https://github.com/freedomofpress/securedrop/milestones/0.3.3.
 
 ## 0.3.2
 
-* Fixes security vulnerabilty (severity=high) in access control on Document Interface (#974)
+* Fixes security vulnerability (severity=high) in access control on Document Interface (#974)
 
 ## 0.3.1
 
