@@ -413,7 +413,7 @@ def test_session_bad_signature(journalist_app, test_journo):
         signer = URLSafeTimedSerializer(
             journalist_app.secret_key, journalist_app.config["SESSION_SIGNER_SALT"]
         )
-        # Given a valid token signed with the corrects secret key and tje Journalist Interface salt
+        # Given a valid token signed with the corrects secret key and the Journalist Interface salt
         token_not_api_salt = signer.dumps(sid)
 
         # When requesting an authenticated endpoint with such token

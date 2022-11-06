@@ -142,7 +142,7 @@
 
 # Contact the OSSEC server and ensure that the authd process
 # is not running. Declaring these as tasks rather than handlers
-# to ensure that the the cleanup happens every time, in case
+# to ensure that the cleanup happens every time, in case
 # authd was somehow left running, e.g. if playbook was interrupted.
 - name: Check if authd process is running on Monitor Server.
   command: pgrep ossec-authd

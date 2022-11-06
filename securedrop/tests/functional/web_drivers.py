@@ -23,7 +23,7 @@ os.environ["TBB_PATH"] = _TBB_PATH
 LOGGER.setLevel(logging.WARNING)
 
 # width & height of the browser window. If the top of screenshot is cropped,
-# increase the height of the window so the the whole page fits in the window.
+# increase the height of the window so the whole page fits in the window.
 _BROWSER_SIZE = (1024, 1400)
 
 

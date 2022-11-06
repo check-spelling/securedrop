@@ -1769,7 +1769,7 @@ var SUPPORTED_ALGS = 4 | 2 | 1;
 		};
 
 		/**
-		 * Returns the the HMAC in the specified format using the key given by
+		 * Returns the HMAC in the specified format using the key given by
 		 * a previous setHMACKey call.
 		 *
 		 * @expose
