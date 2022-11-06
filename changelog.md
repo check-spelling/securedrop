@@ -126,7 +126,7 @@
 * Added "skip to main content link" Source Interface base template (#6237)
 * Added hidden antispam field to detect some automated submissions (#6302)
 * Updated application to redirect to a warning page on detection of a tor2web proxy (#6300, #6335)
-* Added Javascript check to detect use of non-torified proxy servers (#6303)
+* Added JavaScript check to detect use of non-torified proxy servers (#6303)
 * Added /robots.txt route and meta tags to disallow bots on the Source Interface (#6299)
 * Fixed text overflow issue in the "Read Replies" widget (#6301)
 * Updated data attributes in the codename widget to be translateable strings (#6288)
@@ -199,7 +199,7 @@
 * Increased default length of 2FA secrets from 80 to 160 bits (#5958)
 * (Bugfix) Restricted length of source codenames stored in session to fit within standard session cookie (#6066)
 * (Bugfix) Added a uniqueness condition for the web applications’  InstanceConfig (#5974)
-* Removed the Javascript dependency for the user deletion confirmation modal dialog on the Journalist Interface (#5696)
+* Removed the JavaScript dependency for the user deletion confirmation modal dialog on the Journalist Interface (#5696)
 * Updated Source Interface to use TLSv1.3 only when HTTPS is enabled (#5988)
 * (Bugfix) Removed duplicate CSS class attribute from Source Interface index page (#6049)
 
