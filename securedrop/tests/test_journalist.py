@@ -3817,7 +3817,7 @@ def test_journalist_deletion(journalist_app, app_storage):
     db.session.commit()
     # Only one login attempt in the table
     assert len(JournalistLoginAttempt.query.all()) == 1
-    # And four SeenReplys
+    # And four SeenReplies
     assert len(SeenReply.query.all()) == 4
     # Delete the journalists
     journalist.delete()
