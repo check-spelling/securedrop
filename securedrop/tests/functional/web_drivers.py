@@ -33,7 +33,7 @@ class WebDriverTypeEnum(Enum):
 
 
 _DRIVER_RETRY_COUNT = 3
-_DRIVER_RETRY_INTERNVAL = 5
+_DRIVER_RETRY_INTERVAL = 5
 
 
 def _create_torbrowser_driver(
@@ -74,7 +74,7 @@ def _create_torbrowser_driver(
         except Exception as e:
             logging.error("Error creating Tor Browser web driver: %s", e)
             if i < _DRIVER_RETRY_COUNT:
-                time.sleep(_DRIVER_RETRY_INTERNVAL)
+                time.sleep(_DRIVER_RETRY_INTERVAL)
 
     if not torbrowser_driver:
         raise Exception("Could not create Tor Browser web driver")
@@ -105,7 +105,7 @@ def _create_firefox_driver(
         except Exception as e:
             logging.error("Error creating Firefox web driver: %s", e)
             if i < _DRIVER_RETRY_COUNT:
-                time.sleep(_DRIVER_RETRY_INTERNVAL)
+                time.sleep(_DRIVER_RETRY_INTERVAL)
 
     if not firefox_driver:
         raise Exception("Could not create Firefox web driver")
