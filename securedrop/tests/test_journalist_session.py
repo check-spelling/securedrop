@@ -201,7 +201,7 @@ def test_session_admin_change_password_logout(journalist_app, test_journo, test_
         assert (redis.get(journalist_app.config["SESSION_KEY_PREFIX"] + sid)) is None
 
     with journalist_app.test_client() as app:
-        # Add our original cookie back in to the session, and try to re-use it
+        # Add our original cookie back into the session, and try to re-use it
         app.set_cookie(
             "localhost.localdomain",
             "js",
