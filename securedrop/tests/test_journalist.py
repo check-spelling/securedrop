@@ -2621,7 +2621,7 @@ def test_passphrase_migration_on_verification(journalist_app):
     assert journalist.pw_salt is None
     assert journalist.pw_hash is None
 
-    # check that that a verification post-migration works
+    # check that a verification post-migration works
     assert journalist.valid_password(VALID_PASSWORD)
 
 
@@ -2644,7 +2644,7 @@ def test_passphrase_migration_on_reset(journalist_app):
     assert journalist.pw_salt is None
     assert journalist.pw_hash is None
 
-    # check that that a verification post-migration works
+    # check that a verification post-migration works
     assert journalist.valid_password(VALID_PASSWORD)
 
 
