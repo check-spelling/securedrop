@@ -115,7 +115,7 @@ def test_session_renew(journalist_app, test_journo):
     with journalist_app.test_client() as app:
         # When sending a correct login request
         resp = _login_user(app, test_journo)
-        # Then check session existance, signature, and redis payload
+        # Then check session existence, signature, and redis payload
         session_cookie = _session_from_cookiejar(app.cookie_jar, journalist_app)
         assert session_cookie is not None
 
