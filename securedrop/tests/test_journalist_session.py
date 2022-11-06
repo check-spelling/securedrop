@@ -316,7 +316,7 @@ def test_session_api_login(journalist_app, test_journo):
         response = app.get(
             url_for("api.get_current_user"), headers=get_api_headers(resp.json["token"])
         )
-        # Then the reuqest is successful and the correct journalist id is returned
+        # Then the request is successful and the correct journalist id is returned
         assert response.status_code == 200
         assert response.json["uuid"] == test_journo["uuid"]
 
